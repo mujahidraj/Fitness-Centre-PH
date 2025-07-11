@@ -3,46 +3,46 @@
 @import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap');
 /* NAV BAR RELATED STYLES */
 
-body{
+body {
     background-color: rgba(0, 0, 0, 1);
 }
 
-.header-div{
+.header-div {
     max-width: 1440px;
     margin: 0 auto;
 }
 
-svg{
+svg {
     width: 40px;
     height: 40px;
     margin: 23px;
     display: none;
 }
 
-.header{
-   
-    
+.header {
+
+
     background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0.00) 100%);
-   
+
 }
 
-.brand-title{
+.brand-title {
     color: rgba(230, 83, 60, 1);
     font-size: 1.5rem;
     font-weight: 800;
 }
 
-.inter-font{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #my-soul-regular {
-  font-family: "My Soul", cursive;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "My Soul", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
@@ -52,7 +52,7 @@ svg{
     justify-content: space-between;
 }
 
-.navigations{
+.navigations {
     display: flex;
     gap: 47px;
     border-radius: 39px;
@@ -60,21 +60,21 @@ svg{
     align-items: center;
     padding: 0px 0px;
     padding-right: 20px;
-    
+
 }
 
 
 
-.navigations >li{
+.navigations>li {
     list-style: none;
 }
 
-.navigations >li > a{
+.navigations>li>a {
     text-decoration: none;
-    color:rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
 }
 
-.red-list{
+.red-list {
     background-color: rgba(230, 83, 60, 1);
     padding: 8px 20px;
     border-radius: 39px;
@@ -86,21 +86,21 @@ svg{
 
 
 
-.banner-information{
+.banner-information {
     max-width: 520px;
 }
 
-.banner-title{
+.banner-title {
     font-size: 4.5rem;
     font-weight: 900;
     color: white;
 }
 
-.banner-description{
+.banner-description {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.primary-button{
+.primary-button {
     background-color: rgba(230, 83, 60, 1);
     color: rgba(255, 255, 255, 1);
     padding: 16px 40px;
@@ -109,28 +109,30 @@ svg{
     font-size: 1.1rem;
 }
 
-.secondary-button{
+.secondary-button {
 
-    background-color:transparent;
-     color: rgba(255, 255, 255, 1);
+    background-color: transparent;
+    color: rgba(255, 255, 255, 1);
     padding: 16px 40px;
     border-radius: 42px;
     border: 1px solid;
     font-size: 1.1rem;
-    
+
 }
 
-.banner-buttons{
+.banner-buttons {
     display: flex;
     gap: 14px;
     margin-top: 25px;
 }
 
-.workout , .tutorials{
+.workout,
+.tutorials {
     color: #FAFAF9;
 }
 
-.workout ,.tutorials{
+.workout,
+.tutorials {
     border-radius: 12px;
     background-color: rgba(48, 48, 48, 0.54);
     border-color: rgba(255, 255, 255, 0.1);
@@ -142,33 +144,35 @@ svg{
 
 }
 
-.workout-number,.tutorial-number{
+.workout-number,
+.tutorial-number {
     font-weight: 900;
     font-size: 2rem;
     margin: 0;
 }
 
-.tutorial-des,.workout-des{
+.tutorial-des,
+.workout-des {
     margin: 0px;
     color: rgba(239, 237, 232, 0.65);
 }
 
-.workout{
-    margin-top:-450px ;
+.workout {
+    margin-top: -450px;
     margin-left: 210px;
 }
 
-.tutorials{
+.tutorials {
     margin-top: 180px;
     margin-left: -90px;
 }
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
 }
 
-.habit-section{
+.habit-section {
     max-width: 1080px;
     color: white;
     display: flex;
@@ -176,82 +180,113 @@ svg{
     margin: 100px auto;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-.image-group{
+.image-group {
     margin-top: 20px;
     color: white;
     display: flex;
-    
+
 }
 
-.images{
+.images {
     text-align: center;
-    
+
 }
 
-.image-title{
+.image-title {
     color: rgba(255, 255, 255, 1);
     font-weight: 600;
     font-size: 1.1rem;
 }
 
-.images>img{
+.images>img {
     border-radius: 50%;
     border: 5px solid rgb(27, 27, 27);
 }
 
-.habit-section-description{
+.habit-section-description {
     max-width: 670px;
     font-size: 1rem;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
 }
 
-.habit-section-title{
+.habit-section-title {
     text-align: center;
     width: auto;
     color: rgba(255, 255, 255, 1);
     font-size: 2.6rem;
-    
+
 }
 
-.run-section-title{
+.run-section-title {
     text-align: left;
     max-width: 400px;
     color: rgba(255, 255, 255, 1);
     font-size: 3.3rem;
     margin: 0;
-    
+
 }
 
-.extra-run-div .habit-section-description{
+.extra-run-div .habit-section-description {
     text-align: left;
 }
 
-.extra-run{
+.extra-run {
     max-width: 974px;
     margin: 0 auto;
     display: flex;
-padding: 30px 32px 29px 54px;
+    padding: 30px 32px 29px 54px;
     background-color: rgba(34, 34, 34, 1);
     border-radius: 18px;
-align-items: center;
-gap: 165px;
+    align-items: center;
+    gap: 165px;
 
 }
 
-.extra-run img{
+.extra-run img {
     max-width: 366px;
 
-border-radius: 18px;
+    border-radius: 18px;
 }
 
-.extra-run-div{
+.extra-run-div {
     max-width: 445px;
     max-height: 300px;
 }
+
+.training .habit-section-title {
+    text-align: left;
+}
+
+.training {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.training-image img {
+    width: 300px;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.training-image {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+
+}
+
+
+
+
+
+
+
 
 
 
@@ -269,57 +304,69 @@ border-radius: 18px;
 
 
 @media screen and (max-width:576px) {
-    
-    .navigations{
+
+    .navigations {
         display: none;
     }
-    .banner{
+
+    .banner {
         flex-direction: column;
         padding: auto 10px;
 
     }
 
-    .tutorials{
-    margin-top: 80px;
-    margin-left: 0px;
-}
+    .tutorials {
+        margin-top: 80px;
+        margin-left: 0px;
+    }
 
-.workout{
-    margin-top:-550px ;
-    margin-left: 210px;
-}
-svg{
+    .workout {
+        margin-top: -550px;
+        margin-left: 210px;
+    }
 
-    display: block;
-}
+    svg {
 
-
-.image-group{
-    flex-direction: column;
-}
-.image-group  .habit-section-description{
-    max-width: 230px;
-}
-.habit-section-title{
-    text-align: center;
-    width: auto;
-    margin-top: 200px;
-}
-.extra-run{
-    flex-direction: column;
-    padding: 20px 10px 10px 10px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.extra-run-div{
-    gap: 50;
-}
+        display: block;
+    }
 
 
+    .image-group {
+        flex-direction: column;
+    }
+
+    .image-group .habit-section-description {
+        max-width: 230px;
+    }
+
+    .habit-section-title {
+        text-align: center;
+        width: auto;
+        margin-top: 200px;
+    }
+
+    .extra-run {
+        flex-direction: column;
+        padding: 20px 10px 10px 10px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .extra-run-div {
+        gap: 50;
+    }
+
+    .training-image {
+
+        grid-template-columns: repeat(2, 1fr);
 
 
-    
+    }
+
+    .training-image img {
+        width: 200px;
+
+    }
 
 }
