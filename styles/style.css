@@ -209,6 +209,50 @@ svg{
     color: rgba(255, 255, 255, 0.5);
 }
 
+.habit-section-title{
+    text-align: center;
+    width: auto;
+    color: rgba(255, 255, 255, 1);
+    font-size: 2.6rem;
+    
+}
+
+.run-section-title{
+    text-align: left;
+    max-width: 400px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 3.3rem;
+    margin: 0;
+    
+}
+
+.extra-run-div .habit-section-description{
+    text-align: left;
+}
+
+.extra-run{
+    max-width: 974px;
+    margin: 0 auto;
+    display: flex;
+padding: 30px 32px 29px 54px;
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 18px;
+align-items: center;
+gap: 165px;
+
+}
+
+.extra-run img{
+    max-width: 366px;
+
+border-radius: 18px;
+}
+
+.extra-run-div{
+    max-width: 445px;
+    max-height: 300px;
+}
+
 
 
 
@@ -261,6 +305,21 @@ svg{
     width: auto;
     margin-top: 200px;
 }
+.extra-run{
+    flex-direction: column;
+    padding: 20px 10px 10px 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.extra-run-div{
+    gap: 50;
+}
+
+
+
+
     
 
 }
