@@ -407,6 +407,7 @@ footer {
 .calculation-first-div{
 background-color: rgba(34, 34, 34, 1);
 margin-top: 90px;
+
 }
 
 .calculation-div{
@@ -441,7 +442,7 @@ th{
 }
 
 .calculator{
-    max-width: 575px;
+    max-width: 690px;
 }
 
 input{
@@ -615,4 +616,72 @@ color: rgba(255, 255, 255, 0.6);
         padding-left: 5px;
         padding-right: 5px;
     }
+}
+
+
+
+@media screen and (min-width:576px) and (max-width:992px) {
+        .banner {
+        flex-direction: column;
+        padding: auto 10px;
+        align-items: center;
+
+    }
+
+      .image-group {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+        .extra-run {
+        flex-direction: row;
+        padding: 20px 10px 10px 10px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .extra-run > img{
+        max-height: 419px;
+        max-width: 50%;
+        object-fit: contain;
+        object-position: center;
+        
+    }
+
+        .training-image {
+
+        grid-template-columns: repeat(2, 1fr);
+
+
+    }
+
+       .calculation-div{
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .calculator{
+        width: 100vw;
+    }
+
+        .grid-teams {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-view img {
+
+        height: 315px;
+        object-fit: cover;
+        object-position: center;
+
+    }
+
+    .footer{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+
 }
