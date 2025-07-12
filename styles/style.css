@@ -264,6 +264,10 @@ svg {
 .training {
     max-width: 1080px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .training-image img {
@@ -280,6 +284,200 @@ svg {
     padding: 20px;
 
 }
+
+.teams {
+    display: flex;
+    flex-direction: column;
+    max-width: 1080px;
+    margin: 100px auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.grid-view img {
+    width: 100%;
+    height: 272px;
+    border-radius: 18px;
+    margin-top: 20px;
+}
+
+.grid-teams {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.10);
+    padding: 10px 20px 40px 20px;
+
+}
+
+.member-name {
+    color: rgba(255, 255, 255, 1);
+    margin-top: -60px;
+    margin-left: -150px;
+    font-size: 1.1rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.member-position {
+    color: rgba(255, 255, 255, 0.5);
+
+    margin-left: -200px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+.footer-first-div {
+    display: flex;
+    max-width: 1080px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 65px auto 80px auto;
+
+    border: 2px solid rgba(255, 255, 255, 0.10);
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    padding-bottom: 80px;
+}
+
+.information-div {
+    max-width: 445px;
+}
+
+.information-div .brand-title {
+    font-size: 4rem;
+    font-style: italic;
+    margin: 20px 0px;
+    font-weight: 800;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.footer-first-div a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.started-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.started-div h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+.index {
+    margin: 0 auto;
+
+
+}
+
+.index-div {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    padding: 35px;
+
+}
+
+
+
+.calculation-first-div{
+background-color: rgba(34, 34, 34, 1);
+margin-top: 90px;
+}
+
+.calculation-div{
+        color:white;
+    max-width: 1080px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 35px 0px
+}
+
+.table-header{
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+table, th, td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+td{
+    color: rgba(255, 255, 255, 0.5);
+    padding: 12px 25px ;
+}
+
+th{
+    padding: 12px 25px ;
+    color: rgba(255, 255, 255, 1);
+}
+
+.calculator{
+    max-width: 575px;
+}
+
+input{
+    padding: 12px 20px;
+}
+
+select{
+    padding: 12px 20px;
+}
+
+.input-zone{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 12px;
+    margin: 35px auto;
+    
+}
+
+#item:nth-child(5) {
+  grid-column: 1 / 3;
+}
+
+#item{
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.10);
+border: none;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.calculation-section-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
 
 
 
@@ -343,6 +541,7 @@ svg {
         text-align: center;
         width: auto;
         margin-top: 200px;
+
     }
 
     .extra-run {
@@ -369,4 +568,51 @@ svg {
 
     }
 
+    .grid-teams {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid-view img {
+
+        height: 315px;
+        object-fit: cover;
+        object-position: center;
+
+    }
+
+    .footer-first-div{
+        flex-direction: column;
+
+        gap: 0px;
+    }
+
+    .started-div{
+        margin: 0px 0px;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .footer-first-div{
+        margin: 0px;
+    }
+
+    .calculation-div{
+        flex-direction: column;
+        padding: 15px;
+    }
+    .calculator{
+        max-width: 354px;
+    }
+
+    input{
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+        
+    }
+    option , select{
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
